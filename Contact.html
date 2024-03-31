@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css"> </link>
+    <script src="JavaScript.js"></script>
+
+<center>
+    <div class = "menubar"> 
+        <a href="index.html">Home </a>
+        <a href = "About.html"> About Me</a>  
+        <a href="Layla Ferreira.pdf" target="_blank"> Resume </a>
+        <div class="dropdown">
+            <button class="dropbtn"> Contact
+                <i class="fa fa-caret-down"</i>
+                </button>
+            <div = class="dropdown-content">
+            <a href="https://www.linkedin.com/in/layla-ferreira-/">LinkedIn</a>
+            <a href="Contact.html">Email </a>
+            </div>
+        </div
+    </div>
+</center> 
+
+<form id="contactForm">
+    <h1>Contact Me!</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <br>
+    <br>
+    <label for="preferredContact">Preferred Contact Method:</label>
+    <br>
+    <input type="radio" id="emailContact" name="preferredContact" value="email">
+    <label for="emailContact">Email</label>
+    <br>
+    <input type="radio" id="phoneContact" name="preferredContact" value="phone">
+    <label for="phoneContact">Phone</label>
+    <br>
+    <br>
+    <label for="ReasonContact"> Reason for contacting:</label>
+    <br>
+    <input type="checkbox" id="Connect" name="ReasonContact" value="Connect">
+    <label for="Connect">Connect</label>
+    <br>
+    <input type="checkbox" id="workOpportunity" name="ReasonContact" value="workOpportunity">
+    <label for="workOpportunity">Work Opportunity</label>
+    <br>
+    <br>
+    <label for="message"> Message</label>
+    <br>
+    <input type="text" id="referrer" name="referrer">
+    <br>
+    <button type="button" onclick="myFunction()">Submit</button>
+    <button type="reset">Clear/Reset</button>
+</form>
+</div>
+</html> 
