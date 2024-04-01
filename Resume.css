@@ -1,0 +1,102 @@
+/* Body of the whole website */
+body{ 
+    background-color:rgb(246,238,241);
+    margin: 30px 20px 20px 30px;
+  }
+  
+  /* Image */
+  .photo {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Name text*/
+  .Name {
+    position: absolute;
+    font-size: 500%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: TheCalifornia, serif;
+  }
+  
+  /* Menubar container */
+  .menubar {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    overflow: hidden;
+    background-color: #4a7553;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .menubar a {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*Background color to navbar links on hover */
+  .menubar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255,255,255);
+    color: #4a7553;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    overflow: hidden;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* Dropdown button including "Contact" */
+  .dropdown .dropbtn {
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    font-family: Helvetica, sans-serif;
+    color: #4a7553;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #eae5e5;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(246,238,241);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  
