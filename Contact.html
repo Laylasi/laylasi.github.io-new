@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Contact.css">
+    </link>
+    <script src="contact.js"></script>
     <title>Contact</title>
-    <link rel="stylesheet" href="Contact.css"> </link>
-    <script src="JavaScript.js"></script>
+</head>
 
 <center>
-    <div class = "menubar"> 
+    <div class="menubar">
         <a href="index.html">Home </a>
-        <a href = "About.html"> About Me</a>  
+        <a href="About.html"> About Me</a>
         <a href="Resume.html"> Resume </a>
         <div class="dropdown">
             <button class="dropbtn"> Contact
-                <i class="fa fa-caret-down"</i>
-                </button>
-            <div = class="dropdown-content">
-            <a href="https://www.linkedin.com/in/layla-ferreira-/">LinkedIn</a>
-            <a href="Contact.html">Email </a>
+                <i class="fa fa-caret-down" </i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.linkedin.com/in/layla-ferreira-/">LinkedIn</a>
+                <a href="Contact.html">Email </a>
             </div>
-        </div
-    </div>
-</center> 
+        </div </div>
+</center>
 
-<form id="contactForm">
-    <h1>Contact Me!</h1>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <br>
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <br>
-    <br>
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone" required>
-    <br>
-    <br>
-    <label for="preferredContact">Preferred Contact Method:</label>
-    <br>
-    <input type="radio" id="emailContact" name="preferredContact" value="email">
-    <label for="emailContact">Email</label>
-    <br>
-    <input type="radio" id="phoneContact" name="preferredContact" value="phone">
-    <label for="phoneContact">Phone</label>
-    <br>
-    <br>
-    <label for="ReasonContact"> Reason for contacting:</label>
-    <br>
-    <input type="checkbox" id="Connect" name="ReasonContact" value="Connect">
-    <label for="Connect">Connect</label>
-    <br>
-    <input type="checkbox" id="workOpportunity" name="ReasonContact" value="workOpportunity">
-    <label for="workOpportunity">Work Opportunity</label>
-    <br>
-    <br>
-    <label for="message"> Message</label>
-    <br>
-    <input type="text" id="referrer" name="referrer">
-    <br>
-    <button type="button" onclick="myFunction()">Submit</button>
-    <button type="reset">Clear/Reset</button>
+<!--
+<h1>Contact Me!</h1>
+<form id="conact-form">
+ <label for="fname">First Name:</label> <br>
+    <input type="text" id="fname" name="fname" required> <br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="mail" name="email" required><br>
+
+    <label for="phoneNum">Phone:</label><br>
+    <input type="tel" id="phoneNum" name="phoneNum" required><br>
+
+    <label for="preferredContact">Preferred Contact Method:</label><br>
+    <input type="radio" id="preferredContact" name="preferredContact" value="email">
+    <label for="preferredContact">Email</label><br>
+
+    <input type="radio" id="preferredContact" name="preferredContact" value="phone">
+    <label for="preferredContact">Phone</label> <br><br>
+
+    <label for="ReasonContact"> Reason for contacting:</label><br>
+    <input type="checkbox" id="reasonConnect" name="reasonContact" value="reasonConnect">
+    <label for="Connect">Connect</label><br>
+
+    <input type="checkbox" id="workOpportunity" name="workOpportunity" value="workOpportunity">
+    <label for="workOpportunity">Work Opportunity</label><br><br>
+
+    <label for="referrer"> Message</label> <br>
+    <input type="text" id="referrer" name="referrer"> <br>
+
+    <input type="submit" value="Submit">
 </form>
-</div>
-</html> 
+--> 
+<form onsubmit="storeData(event)">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="firstname" required><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lastname" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" onclick="storeData(event)">
+    <label for="preferredContact"> </label>
+</form>
+
+</html>
