@@ -3,9 +3,10 @@ function storeData(event) {
   
     const fname = document.getElementById("fname").value;
     const lname = document.getElementById("lname").value;
-    const email = document.getElementById("email").value;
-  
-      if (fname === "" || lname === "" || email === "") {
+    const emailAddress = document.getElementById("emailAddress").value;
+
+
+      if (fname === "" || lname === "" || emailAddress === "") {
           alert("Please fill out all required fields.");
           return false;
         }
@@ -13,12 +14,15 @@ function storeData(event) {
       // Store form data in local storage
       localStorage.setItem("fname", fname);
       localStorage.setItem("lname", lname);
-      localStorage.setItem("email",email);
+      localStorage.setItem("emailAddress",emailAddress);
+      localStorage.setItem("message",message);
   
   
     console.log("---------------------------------------------------------------")
     console.log(`Name: ${fname} ${lname}`)
-    console.log(`Email: ${email}`)
+    console.log(`EmailAddress ${emailAddress}`)
+    console.log(`Phone Number: ${phoneNum}`)
+    console.log(`Message: ${message}`)
     console.log("----------------------------------------------------------------")
   
     alert("Submission Successful")

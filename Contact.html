@@ -26,51 +26,24 @@
         </div </div>
 </center>
 
-<!--
-<h1>Contact Me!</h1>
-<form id="conact-form">
- <label for="fname">First Name:</label> <br>
-    <input type="text" id="fname" name="fname" required> <br>
-
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lname" required><br>
-
-    <label for="email">Email:</label><br>
-    <input type="text" id="mail" name="email" required><br>
-
-    <label for="phoneNum">Phone:</label><br>
-    <input type="tel" id="phoneNum" name="phoneNum" required><br>
-
-    <label for="preferredContact">Preferred Contact Method:</label><br>
-    <input type="radio" id="preferredContact" name="preferredContact" value="email">
-    <label for="preferredContact">Email</label><br>
-
-    <input type="radio" id="preferredContact" name="preferredContact" value="phone">
-    <label for="preferredContact">Phone</label> <br><br>
-
-    <label for="ReasonContact"> Reason for contacting:</label><br>
-    <input type="checkbox" id="reasonConnect" name="reasonContact" value="reasonConnect">
-    <label for="Connect">Connect</label><br>
-
-    <input type="checkbox" id="workOpportunity" name="workOpportunity" value="workOpportunity">
-    <label for="workOpportunity">Work Opportunity</label><br><br>
-
-    <label for="referrer"> Message</label> <br>
-    <input type="text" id="referrer" name="referrer"> <br>
-
-    <input type="submit" value="Submit">
-</form>
---> 
+<h2> Contact Me!</h2>
+<div class = "contact-form">
 <form onsubmit="storeData(event)">
     <label for="fname">First Name:</label><br>
-    <input type="text" id="fname" name="firstname" required><br>
+    <input type="text" id="fname"= name="firstname" required><br><br>
+    
     <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lastname" required><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <input type="text" id="lname" name="lastname" required><br><br>
 
-    <input type="submit" onclick="storeData(event)">
+    <label for="emailAddress">Email:</label><br>
+    <input type="emailAddress" id="emailAddress" name="emailAddress" required><br><br>
+
+    <label for = "message"> Message:</label><br>
+    <input type="text"  id="message" name="message" required><br><br>
+    
+    <input type="submit" onclick="storeData(event)" class="submit-button">
     <label for="preferredContact"> </label>
 </form>
+</div>
 
 </html>

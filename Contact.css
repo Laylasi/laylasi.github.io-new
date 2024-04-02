@@ -1,15 +1,22 @@
-body{ 
-  background-color:rgb(246,238,241);
+body {
+  background-color: #f9f1f3;
   margin: 30px 20px 20px 30px;
   font-family: Helvetica, sans-serif;
-  }
+}
+
+h2 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  ;
+}
+
 /* Menubar container */
 .menubar {
   display: flex;
   justify-content: center;
   font-size: larger;
   overflow: hidden;
-  background-color: #4a7553;
+  background-color:#4a7553 ;
   font-family: Helvetica, sans-serif;
 }
 
@@ -22,8 +29,9 @@ body{
 }
 
 /*Background color to navbar links on hover */
-.menubar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(255,255,255);
+.menubar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255);
   color: #4a7553;
 }
 
@@ -43,8 +51,10 @@ body{
   color: rgb(255, 255, 255);
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
 }
 
 /* Links inside the dropdown */
@@ -72,10 +82,36 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(246,238,241);
+  background-color: rgb(246, 238, 241);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   text-align: center;
 }
 
+/*Contact form */
+.contact-form {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #b4abab;
+  border-radius: 5px;
+  box-shadow: 100px 2px 100px rgba(20, 21, 21, 0.1);
+}
+
+.submit-button[type="submit"] {
+  background-color: #4a7553;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #a4bc9d;
+}

@@ -1,6 +1,6 @@
 /* Body of the whole website */
 body{ 
-  background-color:rgb(246,238,241);
+  background-color:#f9f1f3;
   margin: 30px 20px 20px 30px;
 }
 
@@ -17,7 +17,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
+  color: #f9f1f3;
   font-family: TheCalifornia, serif;
 }
 
@@ -91,7 +91,7 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(246,238,241);
+  background-color: #f9f1f3;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
