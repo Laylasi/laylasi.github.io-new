@@ -4,12 +4,6 @@ body{
     margin: 30px 20px 20px 30px;
   }
   
-  /* Image */
-  .photo {
-    position: relative;
-    text-align: center;
-  }
-  
   /* Name text*/
   .Name {
     position: absolute;
@@ -99,4 +93,7 @@ body{
     text-align: center;
   }
   
+  .descriptions {
+    font-family: Helvetica, sans-serif;
+  }
   

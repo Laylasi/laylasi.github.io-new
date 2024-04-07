@@ -94,12 +94,26 @@ h2 {
   text-align: center;
   font-family: Helvetica, sans-serif;
   width: 100%;
-  max-width: 400px;
+  width: 500px;
+  height:500px;
   margin: 0 auto;
   padding: 20px;
   border: 5px solid #b4abab;
   border-radius: 5px;
-  box-shadow: 100px 2px 100px rgba(20, 21, 21, 0.1);
+  box-shadow: 100px 2px 100px rgba(88, 90, 90, 0.1);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b4abab;;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom:1px;
+  resize: vertical;
+  font-family: Helvetica, sans-serif;
+  
 }
 
 .submit-button[type="submit"] {

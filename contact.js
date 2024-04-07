@@ -4,7 +4,7 @@ function storeData(event) {
     const fname = document.getElementById("fname").value;
     const lname = document.getElementById("lname").value;
     const emailAddress = document.getElementById("emailAddress").value;
-
+    const message=document.getElementById("message").value;
 
       if (fname === "" || lname === "" || emailAddress === "") {
           alert("Please fill out all required fields.");
@@ -20,8 +20,7 @@ function storeData(event) {
   
     console.log("---------------------------------------------------------------")
     console.log(`Name: ${fname} ${lname}`)
-    console.log(`EmailAddress ${emailAddress}`)
-    console.log(`Phone Number: ${phoneNum}`)
+    console.log(`Email Address: ${emailAddress}`)
     console.log(`Message: ${message}`)
     console.log("----------------------------------------------------------------")
   

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html></html>
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -24,21 +24,18 @@
             </div>
         </div </div>
 </center>
+ <br>
 
-<h2> Contact Me!</h2>
 <div class = "contact-form">
 <form onsubmit="storeData(event)">
-    <label for="fname">First Name:</label><br>
-    <input type="text" id="fname"= name="firstname" required><br><br>
+    <h2> Contact Me!</h2>
+    <input type="text" id="fname" name="firstname" placeholder="First Name:" required ><br><br>
     
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lastname" required><br><br>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name:" required><br><br>
+    
+    <input type="text" id="emailAddress" name="emailAddress" placeholder="Email Address:" required><br><br>
 
-    <label for="emailAddress">Email:</label><br>
-    <input type="emailAddress" id="emailAddress" name="emailAddress" required><br><br>
-
-    <label for = "message"> Message:</label><br>
-    <input type="text"  id="message" name="message" required><br><br>
+    <input type="text"  id="message" name="message" placeholder="Message:" required><br><br>
     
     <input type="submit" onclick="storeData(event)" class="submit-button">
     <label for="preferredContact"> </label>
