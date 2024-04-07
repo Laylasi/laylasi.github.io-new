@@ -87,13 +87,26 @@ body{
     position: absolute;
     background-color: rgb(246,238,241);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
     z-index: 1;
     font-family: Helvetica, sans-serif;
     text-align: center;
   }
   
-  .descriptions {
+  /* Table descriptions and list */
+  table, li {
     font-family: Helvetica, sans-serif;
   }
+
+  a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none; 
+    background-color:none; 
+    color:#4a7553;
+  }
+  
+  a:hover {
+    color:#99b49f;
+  }
+
   
