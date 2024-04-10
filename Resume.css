@@ -45,6 +45,7 @@ body{
     align-items: center;
     font-family: Helvetica, sans-serif;
   }
+
   
   /* Dropdown button including "Contact" */
   .dropdown .dropbtn {
@@ -98,15 +99,10 @@ body{
     font-family: Helvetica, sans-serif;
   }
 
-  a {
-    font-family: Helvetica, sans-serif;
-    text-decoration: none; 
-    background-color:none; 
-    color:#4a7553;
+  table .ul{
+    position: relative;
+    top:-20px;
   }
-  
-  a:hover {
-    color:#99b49f;
-  }
+
 
   

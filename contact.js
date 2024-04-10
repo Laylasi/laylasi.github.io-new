@@ -1,3 +1,9 @@
+/* Changing font size */
+function changeFontSize(size) {
+  document.querySelector('p', 'descriptions').style.fontSize = size;
+}
+
+/* Submit form */
 function storeData(event) {
     event.preventDefault(); // prevent the form from submitting normally
   
@@ -25,4 +31,7 @@ function storeData(event) {
     console.log("----------------------------------------------------------------")
   
     alert("Submission Successful")
+
+    document.getElementById().reset();
     }  
+    

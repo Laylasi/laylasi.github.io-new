@@ -4,27 +4,42 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="About.css">
-  </link>
-  <script src="About.js"> </script>
+  <link rel="stylesheet" href="About.css"> </link>
+  <script src="contact.js"></script>
   <title>About Me</title>
 </head>
 
+<h6>Text Size:</h6>
+<select onchange="changeFontSize(this.value)" label="textSize">
+  <option value="medium">Medium</option>
+  <option value="large">Large</option>
+  <option value="x-large">Extra-Large</option>
+</select>
+
 <center>
-  <div class="menubar">
-    <a href="index.html">Home </a>
-    <a href="About.html">About Me </a>
-    <a href="Resume.html"> Resume </a>
+  <div class = "menubar"> 
+      <a href="index.html">Home </a>
+      <a href="About.html">About Me </a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Resume
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content"><a href="Resume.html">View Resume</a>
+          <a href="Layla Ferreira.pdf" target="_blank">Download Resume</a>
+        </div>
+      </div>
     <div class="dropdown">
-      <button class="dropbtn"> Contact
-        <i class="fa fa-caret-down" </i>
-      </button>
-      <div class="dropdown-content">
-        <a href="https://www.linkedin.com/in/layla-ferreira-/">LinkedIn</a>
-        <a href="Contact.html">Email </a>
-    </div>
-  </div </div>
-</center>
+        <button class="dropbtn"> Contact
+          <i class="fa fa-caret-down"</i>
+         </button>
+     <div class="dropdown-content">
+       <a href="https://www.linkedin.com/in/layla-ferreira-/" target="_blank">LinkedIn</a>
+       <a href="Contact.html">Contact Form </a>
+          </div>
+          </div
+      </div>
+</center> 
 
 <div class="container">
   <h2> Hi There! </h2>
@@ -55,6 +70,7 @@
       </ul>
     </div>
   </div>
+  
   <div class="Logo">
     <div class="Logo-header">
       <img src="Fit4Bus.png" alt="Fit4Business" style="width:200px">

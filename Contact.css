@@ -125,7 +125,20 @@ input[type=text], select, textarea {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .submit-button:hover {
+  background-color: #a4bc9d;
+}
+
+input[type="Reset"] {
+  background-color: #4a7553;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="Reset"]:hover {
   background-color: #a4bc9d;
 }

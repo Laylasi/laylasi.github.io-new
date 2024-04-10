@@ -99,3 +99,29 @@ body{
   text-align: center;
 }
 
+/* For the pictures and descriptions */
+.Logo{
+  float: left;
+  width: 32%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Logo-header:hover{
+  transform:scale(1.2);
+}
+
+/*Clearfix (clear floats)*/
+.columns::after {
+  content: "";
+  clear: both;
+  display: table-column;
+}
+
+.descriptions {
+  font-family: Helvetica, sans-serif;
+}
+

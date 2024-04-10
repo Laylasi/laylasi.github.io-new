@@ -10,25 +10,34 @@
 </head>
 
 <center>
-    <div class="menubar">
+    <div class = "menubar"> 
         <a href="index.html">Home </a>
-        <a href="About.html"> About Me</a>
-        <a href="Resume.html"> Resume </a>
+        <a href="About.html">About Me </a>
         <div class="dropdown">
-            <button class="dropbtn"> Contact
-                <i class="fa fa-caret-down" </i>
+            <button class="dropbtn">
+              Resume
+              <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
-                <a href="https://www.linkedin.com/in/layla-ferreira-/">LinkedIn</a>
-                <a href="Contact.html">Email </a>
+            <div class="dropdown-content"><a href="Resume.html">View Resume</a>
+              <a href="Layla Ferreira.pdf" target="_blank">Download Resume</a>
             </div>
-        </div </div>
-</center>
+          </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Contact
+            <i class="fa fa-caret-down"</i>
+           </button>
+       <div class="dropdown-content">
+         <a href="https://www.linkedin.com/in/layla-ferreira-/"  target="_blank">LinkedIn</a>
+         <a href="Contact.html">Contact Form </a>
+            </div>
+            </div
+        </div>
+  </center> 
  <br>
 
 <div class = "contact-form">
 <form onsubmit="storeData(event)">
-    <h2> Contact Me!</h2>
+    <h2> Contact Me! <br> Fill out this form to get in touch</h2>
     <input type="text" id="fname" name="firstname" placeholder="First Name:" required ><br><br>
     
     <input type="text" id="lname" name="lastname" placeholder="Last Name:" required><br><br>
@@ -38,7 +47,7 @@
     <input type="text"  id="message" name="message" placeholder="Message:" required><br><br>
     
     <input type="submit" onclick="storeData(event)" class="submit-button">
-    <label for="preferredContact"> </label>
+    <input type ="Reset" value ="Reset">
 </form>
 </div>
 
